@@ -1,0 +1,138 @@
+body{
+    background-image:url(../Images/music1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+
+}
+
+.menu {
+    display: inline-flex;
+    background-color: #040A0D;
+    width: 60%;
+    max-width: 56em;
+    font-size: 35px;
+    margin: 0px 300px;
+    font-family: Lobster;
+    top: 0px;
+    
+    
+    
+}
+
+.menu a:visited {
+    color: #B21247;
+    text-decoration: none; /*Not working yet!!!*/
+    
+}
+
+.menu a:hover{
+    color: beige;
+}
+
+
+.advertisement {
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: #B21247;
+    font-weight: bold;
+    background-color: cornsilk;
+    font-family: Monoton , cursive;
+    max-width: 220px;
+    top: 140px;
+    position: sticky;
+    flex-direction: column;
+}
+
+.advertisementimage img{
+    max-width: 200px;
+}
+
+.container {
+    margin: -550px 308px;
+    background-color: rgba(41, 5, 16, 0.96);
+    width: 60%;
+    max-width: 56em;
+    padding: 0px;
+    position: relative;
+  
+    
+}
+
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+    color: cornsilk;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Monoton , cursive;
+}
+
+
+.section1div {
+    text-align: center;
+    
+}
+
+.section1div2 {
+    display: inline-flex;
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    font-family: Squada One, cursive;
+    font-size: 20px;
+    color: rgba(219, 194, 194, 1);
+    font-weight: 100;
+    
+}
+
+.imagen {
+    width: 70%; /* Not quite sure about the funtion of this. ¿Does it make ir responsive? "*/
+}
+
+.imagen img  {
+    height: 300px;
+    width: 400px;
+    padding: 24px 0px 0px 20px;
+} 
+
+
+.section2div {
+    display: inline-flex;
+}
+
+.section2video {
+    margin-top: 133px;
+    margin-left: 20px;
+}
+
+.section2div2 {
+    flex-direction: column;
+    text-align: justify;
+    max-width: 350px;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+    font-family: Squada One, cursive;
+    font-size: 20px;
+    color: rgba(219, 194, 194, 1);
+    font-weight: 100;
+
+}
+
+
+
+.cooking {
+   background-color:black;
+   font-size: 35px;
+   font-family: Lobster;
+   bottom: 0px;
+   right: 0px;
+   padding: 0px 9px 5px 5px;
+  /*Is there a simpler way to coordinate this Item?*/
+   max-width: 300px;
+   position: fixed;
+   
+  
+}
